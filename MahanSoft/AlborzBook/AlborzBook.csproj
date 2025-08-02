@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E78A14EB-0F13-4855-A043-799B654BAA31}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AlborzBook</RootNamespace>
+    <AssemblyName>AlborzBook</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alborzBook.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>alborzBook.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="f_New_Edit\frmNewEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_New_Edit\frmNewEdit.Designer.cs">
+      <DependentUpon>frmNewEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Book\frmNewBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Book\frmNewBook.Designer.cs">
+      <DependentUpon>frmNewBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Publisher\frmPublisher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Publisher\frmPublisher.Designer.cs">
+      <DependentUpon>frmPublisher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Book\frmBookSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Book\frmBookSearch.Designer.cs">
+      <DependentUpon>frmBookSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Category\frmCategoryBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Category\frmCategoryBooks.Designer.cs">
+      <DependentUpon>frmCategoryBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Customer\frmCustomerN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Customer\frmCustomerN.Designer.cs">
+      <DependentUpon>frmCustomerN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Customer\frmCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Customer\frmCustomers.Designer.cs">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_User\frmListUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_User\frmListUsers.Designer.cs">
+      <DependentUpon>frmListUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Login_Splash_Main\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Login_Splash_Main\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_User\frmLoginListUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_User\frmLoginListUsers.Designer.cs">
+      <DependentUpon>frmLoginListUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Login_Splash_Main\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Login_Splash_Main\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Login_Splash_Main\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Login_Splash_Main\frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Template\frmTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Template\frmTemplate.Designer.cs">
+      <DependentUpon>frmTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Template\frmTemplateNewEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Template\frmTemplateNewEdit.Designer.cs">
+      <DependentUpon>frmTemplateNewEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Template\frmTemplateTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Template\frmTemplateTable.Designer.cs">
+      <DependentUpon>frmTemplateTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_User\frmNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_User\frmNewUser.designer.cs">
+      <DependentUpon>frmNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="f_New_Edit\frmNewEdit.resx">
+      <DependentUpon>frmNewEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Book\frmNewBook.resx">
+      <DependentUpon>frmNewBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Publisher\frmPublisher.resx">
+      <DependentUpon>frmPublisher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Book\frmBookSearch.resx">
+      <DependentUpon>frmBookSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Category\frmCategoryBooks.resx">
+      <DependentUpon>frmCategoryBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Customer\frmCustomerN.resx">
+      <DependentUpon>frmCustomerN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Customer\frmCustomers.resx">
+      <DependentUpon>frmCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_User\frmListUsers.resx">
+      <DependentUpon>frmListUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Login_Splash_Main\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_User\frmLoginListUsers.resx">
+      <DependentUpon>frmLoginListUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Login_Splash_Main\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Login_Splash_Main\frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Template\frmTemplate.resx">
+      <DependentUpon>frmTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Template\frmTemplateNewEdit.resx">
+      <DependentUpon>frmTemplateNewEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Template\frmTemplateTable.resx">
+      <DependentUpon>frmTemplateTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_User\frmNewUser.resx">
+      <DependentUpon>frmNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="alborzBook.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>alborzBook.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="alborzBook.dbml.layout">
+      <DependentUpon>alborzBook.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIOR057.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\T100.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

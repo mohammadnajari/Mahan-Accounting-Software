@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AlborzDb" Class="alborzBookDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=AlborzDb;Integrated Security=True" SettingsObjectName="AlborzBook.Properties.Settings" SettingsPropertyName="AlborzDbConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblBook" Member="tblBooks">
+    <Type Name="tblBook">
+      <Column Name="bookId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="categoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="publishersId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="bookName" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="price" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="number" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tblCategoryBook_tblBook" Member="tblCategoryBook" ThisKey="categoryId" OtherKey="categoryId" Type="tblCategoryBook" IsForeignKey="true" />
+      <Association Name="tblPublisher_tblBook" Member="tblPublisher" ThisKey="publishersId" OtherKey="publishersId" Type="tblPublisher" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCategoryBook" Member="tblCategoryBooks">
+    <Type Name="tblCategoryBook">
+      <Column Name="categoryId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="categoryName" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Association Name="tblCategoryBook_tblBook" Member="tblBooks" ThisKey="categoryId" OtherKey="categoryId" Type="tblBook" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblPublisher" Member="tblPublishers">
+    <Type Name="tblPublisher">
+      <Column Name="publishersId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="publishersName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tblPublisher_tblBook" Member="tblBooks" ThisKey="publishersId" OtherKey="publishersId" Type="tblBook" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblUser" Member="tblUsers">
+    <Type Name="tblUser">
+      <Column Name="userName" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="roles" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCustomer" Member="tblCustomers">
+    <Type Name="tblCustomer">
+      <Column Name="customersId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="customersName" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="customersPhoneNumber" Type="System.String" DbType="VarChar(11) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

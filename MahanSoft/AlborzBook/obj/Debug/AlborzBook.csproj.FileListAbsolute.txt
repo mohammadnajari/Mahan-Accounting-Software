@@ -1,0 +1,75 @@
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.Properties.Resources.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.csproj.GenerateResource.cache
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.csproj.CoreCompileInputs.cache
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\bin\Debug\AlborzBook.exe.config
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\bin\Debug\AlborzBook.exe
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\bin\Debug\AlborzBook.pdb
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.exe
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.pdb
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmSplash.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmLogin.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmTemplate.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmMain.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmTemplateTable.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmCategoruBooks.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmCustomers.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmBookSearch.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmLoginListUsers.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmListUsers.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmTemplateNewEdit.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmCustomerN.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmPublisher.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmNewBook.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmNewEdit.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.frmNewUser.resources
+G:\UNI\استاد شاه سمندی\project\Alborz\AlborzBook\AlborzBook\obj\Debug\AlborzBook.csproj.AssemblyReference.cache
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\bin\Debug\AlborzBook.exe.config
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\bin\Debug\AlborzBook.exe
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\bin\Debug\AlborzBook.pdb
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.csproj.AssemblyReference.cache
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmNewEdit.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmNewBook.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmPublisher.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmBookSearch.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmCategoruBooks.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmCustomerN.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmCustomers.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmListUsers.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmLogin.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmLoginListUsers.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmMain.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmSplash.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmTemplate.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmTemplateNewEdit.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmTemplateTable.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmNewUser.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.Properties.Resources.resources
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.csproj.GenerateResource.cache
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.csproj.CoreCompileInputs.cache
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.exe
+C:\Users\shamim\Desktop\project\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.pdb
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\bin\Debug\AlborzBook.exe.config
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\bin\Debug\AlborzBook.exe
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\bin\Debug\AlborzBook.pdb
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmNewEdit.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmNewBook.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmPublisher.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmBookSearch.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmCategoruBooks.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmCustomerN.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmCustomers.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmListUsers.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmLogin.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmLoginListUsers.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmMain.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmSplash.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmTemplate.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmTemplateNewEdit.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmTemplateTable.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.frmNewUser.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.Properties.Resources.resources
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.csproj.GenerateResource.cache
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.csproj.CoreCompileInputs.cache
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.exe
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.pdb
+C:\Users\shamim\Desktop\project - Copy\01-MahanSoft\MahanSoft\AlborzBook\obj\Debug\AlborzBook.csproj.AssemblyReference.cache
